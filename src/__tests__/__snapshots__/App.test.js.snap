@@ -1,0 +1,2175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Screen test should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "active": false,
+      "children": <ForwardRef
+        as="div"
+        fluid={false}
+      >
+        <ModalComponent
+          handleClose={[Function]}
+          message=""
+          show={false}
+        />
+        <InputModalComponent
+          handleClose={[Function]}
+          handleConfirm={[Function]}
+          title="Edit Place"
+        />
+        <ForwardRef(render)>
+          <ForwardRef
+            as="div"
+            className="map-container"
+            sm={6}
+          >
+            <withScriptjs(withGoogleMap(MapComponent))
+              containerElement={
+                <div
+                  style={
+                    Object {
+                      "height": "100%",
+                    }
+                  }
+                />
+              }
+              googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+              loadingElement={
+                <div
+                  style={
+                    Object {
+                      "height": "100%",
+                    }
+                  }
+                />
+              }
+              locations={
+                Array [
+                  Object {
+                    "Address": "a",
+                    "Lat": "a",
+                    "Lng": "a",
+                    "Name": "a",
+                    "_id": "a",
+                  },
+                ]
+              }
+              mapElement={
+                <div
+                  style={
+                    Object {
+                      "height": "100%",
+                    }
+                  }
+                />
+              }
+            />
+          </ForwardRef>
+          <ForwardRef
+            as="div"
+            className="list-container"
+            sm={6}
+          >
+            <ForwardRef(render)
+              className="input-row"
+            >
+              <ForwardRef
+                as="form"
+                className="input-form"
+                inline={false}
+              >
+                <ForwardRef>
+                  <ForwardRef
+                    as="div"
+                    sm={8}
+                  >
+                    <ForwardRef
+                      as="input"
+                      className="place-input"
+                      onChange={[Function]}
+                      placeholder="Add Place"
+                      type="text"
+                      value=""
+                    />
+                  </ForwardRef>
+                  <ForwardRef
+                    as="div"
+                    sm={4}
+                  >
+                    <ForwardRef
+                      active={false}
+                      className="add_btn"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                      variant="primary"
+                    >
+                      Add Map
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef>
+              </ForwardRef>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="list-row"
+            >
+              <ul
+                className="list"
+              >
+                <PlaceListItem
+                  location={
+                    Object {
+                      "Address": "a",
+                      "Lat": "a",
+                      "Lng": "a",
+                      "Name": "a",
+                      "_id": "a",
+                    }
+                  }
+                  onDelete={[Function]}
+                  onEdit={[Function]}
+                />
+              </ul>
+            </ForwardRef(render)>
+          </ForwardRef>
+        </ForwardRef(render)>
+      </ForwardRef>,
+      "classNamePrefix": "_loading_overlay_",
+      "fadeSpeed": 500,
+      "spinner": true,
+      "styles": Object {},
+      "text": "Loading...",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "as": "div",
+        "children": Array [
+          <ModalComponent
+            handleClose={[Function]}
+            message=""
+            show={false}
+          />,
+          <InputModalComponent
+            handleClose={[Function]}
+            handleConfirm={[Function]}
+            title="Edit Place"
+          />,
+          <ForwardRef(render)>
+            <ForwardRef
+              as="div"
+              className="map-container"
+              sm={6}
+            >
+              <withScriptjs(withGoogleMap(MapComponent))
+                containerElement={
+                  <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />
+                }
+                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+                loadingElement={
+                  <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />
+                }
+                locations={
+                  Array [
+                    Object {
+                      "Address": "a",
+                      "Lat": "a",
+                      "Lng": "a",
+                      "Name": "a",
+                      "_id": "a",
+                    },
+                  ]
+                }
+                mapElement={
+                  <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />
+                }
+              />
+            </ForwardRef>
+            <ForwardRef
+              as="div"
+              className="list-container"
+              sm={6}
+            >
+              <ForwardRef(render)
+                className="input-row"
+              >
+                <ForwardRef
+                  as="form"
+                  className="input-form"
+                  inline={false}
+                >
+                  <ForwardRef>
+                    <ForwardRef
+                      as="div"
+                      sm={8}
+                    >
+                      <ForwardRef
+                        as="input"
+                        className="place-input"
+                        onChange={[Function]}
+                        placeholder="Add Place"
+                        type="text"
+                        value=""
+                      />
+                    </ForwardRef>
+                    <ForwardRef
+                      as="div"
+                      sm={4}
+                    >
+                      <ForwardRef
+                        active={false}
+                        className="add_btn"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                        variant="primary"
+                      >
+                        Add Map
+                      </ForwardRef>
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef>
+              </ForwardRef(render)>
+              <ForwardRef(render)
+                className="list-row"
+              >
+                <ul
+                  className="list"
+                >
+                  <PlaceListItem
+                    location={
+                      Object {
+                        "Address": "a",
+                        "Lat": "a",
+                        "Lng": "a",
+                        "Name": "a",
+                        "_id": "a",
+                      }
+                    }
+                    onDelete={[Function]}
+                    onEdit={[Function]}
+                  />
+                </ul>
+              </ForwardRef(render)>
+            </ForwardRef>
+          </ForwardRef(render)>,
+        ],
+        "fluid": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "handleClose": [Function],
+            "message": "",
+            "show": false,
+            "title": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleClose": [Function],
+            "handleConfirm": [Function],
+            "show": undefined,
+            "title": "Edit Place",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef
+                as="div"
+                className="map-container"
+                sm={6}
+              >
+                <withScriptjs(withGoogleMap(MapComponent))
+                  containerElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                  googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+                  loadingElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                  locations={
+                    Array [
+                      Object {
+                        "Address": "a",
+                        "Lat": "a",
+                        "Lng": "a",
+                        "Name": "a",
+                        "_id": "a",
+                      },
+                    ]
+                  }
+                  mapElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                />
+              </ForwardRef>,
+              <ForwardRef
+                as="div"
+                className="list-container"
+                sm={6}
+              >
+                <ForwardRef(render)
+                  className="input-row"
+                >
+                  <ForwardRef
+                    as="form"
+                    className="input-form"
+                    inline={false}
+                  >
+                    <ForwardRef>
+                      <ForwardRef
+                        as="div"
+                        sm={8}
+                      >
+                        <ForwardRef
+                          as="input"
+                          className="place-input"
+                          onChange={[Function]}
+                          placeholder="Add Place"
+                          type="text"
+                          value=""
+                        />
+                      </ForwardRef>
+                      <ForwardRef
+                        as="div"
+                        sm={4}
+                      >
+                        <ForwardRef
+                          active={false}
+                          className="add_btn"
+                          disabled={false}
+                          onClick={[Function]}
+                          type="button"
+                          variant="primary"
+                        >
+                          Add Map
+                        </ForwardRef>
+                      </ForwardRef>
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef(render)>
+                <ForwardRef(render)
+                  className="list-row"
+                >
+                  <ul
+                    className="list"
+                  >
+                    <PlaceListItem
+                      location={
+                        Object {
+                          "Address": "a",
+                          "Lat": "a",
+                          "Lng": "a",
+                          "Name": "a",
+                          "_id": "a",
+                        }
+                      }
+                      onDelete={[Function]}
+                      onEdit={[Function]}
+                    />
+                  </ul>
+                </ForwardRef(render)>
+              </ForwardRef>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "div",
+                "children": <withScriptjs(withGoogleMap(MapComponent))
+                  containerElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                  googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+                  loadingElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                  locations={
+                    Array [
+                      Object {
+                        "Address": "a",
+                        "Lat": "a",
+                        "Lng": "a",
+                        "Name": "a",
+                        "_id": "a",
+                      },
+                    ]
+                  }
+                  mapElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                />,
+                "className": "map-container",
+                "sm": 6,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "containerElement": <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />,
+                  "googleMapURL": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ",
+                  "loadingElement": <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />,
+                  "locations": Array [
+                    Object {
+                      "Address": "a",
+                      "Lat": "a",
+                      "Lng": "a",
+                      "Name": "a",
+                      "_id": "a",
+                    },
+                  ],
+                  "mapElement": <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "as": "div",
+                },
+                "displayName": "Col",
+                "render": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "div",
+                "children": Array [
+                  <ForwardRef(render)
+                    className="input-row"
+                  >
+                    <ForwardRef
+                      as="form"
+                      className="input-form"
+                      inline={false}
+                    >
+                      <ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={8}
+                        >
+                          <ForwardRef
+                            as="input"
+                            className="place-input"
+                            onChange={[Function]}
+                            placeholder="Add Place"
+                            type="text"
+                            value=""
+                          />
+                        </ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={4}
+                        >
+                          <ForwardRef
+                            active={false}
+                            className="add_btn"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="primary"
+                          >
+                            Add Map
+                          </ForwardRef>
+                        </ForwardRef>
+                      </ForwardRef>
+                    </ForwardRef>
+                  </ForwardRef(render)>,
+                  <ForwardRef(render)
+                    className="list-row"
+                  >
+                    <ul
+                      className="list"
+                    >
+                      <PlaceListItem
+                        location={
+                          Object {
+                            "Address": "a",
+                            "Lat": "a",
+                            "Lng": "a",
+                            "Name": "a",
+                            "_id": "a",
+                          }
+                        }
+                        onDelete={[Function]}
+                        onEdit={[Function]}
+                      />
+                    </ul>
+                  </ForwardRef(render)>,
+                ],
+                "className": "list-container",
+                "sm": 6,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ForwardRef
+                      as="form"
+                      className="input-form"
+                      inline={false}
+                    >
+                      <ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={8}
+                        >
+                          <ForwardRef
+                            as="input"
+                            className="place-input"
+                            onChange={[Function]}
+                            placeholder="Add Place"
+                            type="text"
+                            value=""
+                          />
+                        </ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={4}
+                        >
+                          <ForwardRef
+                            active={false}
+                            className="add_btn"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="primary"
+                          >
+                            Add Map
+                          </ForwardRef>
+                        </ForwardRef>
+                      </ForwardRef>
+                    </ForwardRef>,
+                    "className": "input-row",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": "form",
+                      "children": <ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={8}
+                        >
+                          <ForwardRef
+                            as="input"
+                            className="place-input"
+                            onChange={[Function]}
+                            placeholder="Add Place"
+                            type="text"
+                            value=""
+                          />
+                        </ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={4}
+                        >
+                          <ForwardRef
+                            active={false}
+                            className="add_btn"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="primary"
+                          >
+                            Add Map
+                          </ForwardRef>
+                        </ForwardRef>
+                      </ForwardRef>,
+                      "className": "input-form",
+                      "inline": false,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": Array [
+                          <ForwardRef
+                            as="div"
+                            sm={8}
+                          >
+                            <ForwardRef
+                              as="input"
+                              className="place-input"
+                              onChange={[Function]}
+                              placeholder="Add Place"
+                              type="text"
+                              value=""
+                            />
+                          </ForwardRef>,
+                          <ForwardRef
+                            as="div"
+                            sm={4}
+                          >
+                            <ForwardRef
+                              active={false}
+                              className="add_btn"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="primary"
+                            >
+                              Add Map
+                            </ForwardRef>
+                          </ForwardRef>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "as": "div",
+                            "children": <ForwardRef
+                              as="input"
+                              className="place-input"
+                              onChange={[Function]}
+                              placeholder="Add Place"
+                              type="text"
+                              value=""
+                            />,
+                            "sm": 8,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "as": "input",
+                              "className": "place-input",
+                              "onChange": [Function],
+                              "placeholder": "Add Place",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "Feedback": Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "defaultProps": Object {
+                                  "as": "div",
+                                  "type": "valid",
+                                },
+                                "displayName": "Feedback",
+                                "propTypes": Object {
+                                  "as": [Function],
+                                  "type": [Function],
+                                },
+                                "render": [Function],
+                              },
+                              "defaultProps": Object {
+                                "as": "input",
+                              },
+                              "displayName": "FormControl",
+                              "render": [Function],
+                            },
+                          },
+                          "type": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "defaultProps": Object {
+                              "as": "div",
+                            },
+                            "displayName": "Col",
+                            "render": [Function],
+                          },
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "as": "div",
+                            "children": <ForwardRef
+                              active={false}
+                              className="add_btn"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="primary"
+                            >
+                              Add Map
+                            </ForwardRef>,
+                            "sm": 4,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "active": false,
+                              "children": "Add Map",
+                              "className": "add_btn",
+                              "disabled": false,
+                              "onClick": [Function],
+                              "type": "button",
+                              "variant": "primary",
+                            },
+                            "ref": null,
+                            "rendered": "Add Map",
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "defaultProps": Object {
+                                "active": false,
+                                "disabled": false,
+                                "type": "button",
+                                "variant": "primary",
+                              },
+                              "displayName": "Button",
+                              "render": [Function],
+                            },
+                          },
+                          "type": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "defaultProps": Object {
+                              "as": "div",
+                            },
+                            "displayName": "Col",
+                            "render": [Function],
+                          },
+                        },
+                      ],
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": undefined,
+                        "displayName": "FormRow",
+                        "render": [Function],
+                      },
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "Check": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Input": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "type": "checkbox",
+                          },
+                          "displayName": "FormCheckInput",
+                          "render": [Function],
+                        },
+                        "Label": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "type": "checkbox",
+                          },
+                          "displayName": "FormCheckLabel",
+                          "render": [Function],
+                        },
+                        "defaultProps": Object {
+                          "disabled": false,
+                          "inline": false,
+                          "isInvalid": false,
+                          "isValid": false,
+                          "title": "",
+                          "type": "checkbox",
+                        },
+                        "displayName": "FormCheck",
+                        "render": [Function],
+                      },
+                      "Control": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Feedback": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "as": "div",
+                            "type": "valid",
+                          },
+                          "displayName": "Feedback",
+                          "propTypes": Object {
+                            "as": [Function],
+                            "type": [Function],
+                          },
+                          "render": [Function],
+                        },
+                        "defaultProps": Object {
+                          "as": "input",
+                        },
+                        "displayName": "FormControl",
+                        "render": [Function],
+                      },
+                      "Group": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": Object {
+                          "as": "div",
+                        },
+                        "displayName": "FormGroup",
+                        "render": [Function],
+                      },
+                      "Label": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": Object {
+                          "column": false,
+                          "srOnly": false,
+                        },
+                        "displayName": "FormLabel",
+                        "render": [Function],
+                      },
+                      "Row": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": undefined,
+                        "displayName": "FormRow",
+                        "render": [Function],
+                      },
+                      "Text": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": Object {
+                          "as": "small",
+                        },
+                        "displayName": "FormText",
+                        "render": [Function],
+                      },
+                      "defaultProps": Object {
+                        "as": "form",
+                        "inline": false,
+                      },
+                      "displayName": "Form",
+                      "render": [Function],
+                    },
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "displayName": "Bootstrap(Row)",
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ul
+                      className="list"
+                    >
+                      <PlaceListItem
+                        location={
+                          Object {
+                            "Address": "a",
+                            "Lat": "a",
+                            "Lng": "a",
+                            "Name": "a",
+                            "_id": "a",
+                          }
+                        }
+                        onDelete={[Function]}
+                        onEdit={[Function]}
+                      />
+                    </ul>,
+                    "className": "list-row",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <PlaceListItem
+                          location={
+                            Object {
+                              "Address": "a",
+                              "Lat": "a",
+                              "Lng": "a",
+                              "Name": "a",
+                              "_id": "a",
+                            }
+                          }
+                          onDelete={[Function]}
+                          onEdit={[Function]}
+                        />,
+                      ],
+                      "className": "list",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "a",
+                        "nodeType": "function",
+                        "props": Object {
+                          "location": Object {
+                            "Address": "a",
+                            "Lat": "a",
+                            "Lng": "a",
+                            "Name": "a",
+                            "_id": "a",
+                          },
+                          "onDelete": [Function],
+                          "onEdit": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "ul",
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "displayName": "Bootstrap(Row)",
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "as": "div",
+                },
+                "displayName": "Col",
+                "render": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "Bootstrap(Row)",
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "as": "div",
+          "fluid": false,
+        },
+        "displayName": "Container",
+        "render": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "active": false,
+        "children": <ForwardRef
+          as="div"
+          fluid={false}
+        >
+          <ModalComponent
+            handleClose={[Function]}
+            message=""
+            show={false}
+          />
+          <InputModalComponent
+            handleClose={[Function]}
+            handleConfirm={[Function]}
+            title="Edit Place"
+          />
+          <ForwardRef(render)>
+            <ForwardRef
+              as="div"
+              className="map-container"
+              sm={6}
+            >
+              <withScriptjs(withGoogleMap(MapComponent))
+                containerElement={
+                  <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />
+                }
+                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+                loadingElement={
+                  <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />
+                }
+                locations={
+                  Array [
+                    Object {
+                      "Address": "a",
+                      "Lat": "a",
+                      "Lng": "a",
+                      "Name": "a",
+                      "_id": "a",
+                    },
+                  ]
+                }
+                mapElement={
+                  <div
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                  />
+                }
+              />
+            </ForwardRef>
+            <ForwardRef
+              as="div"
+              className="list-container"
+              sm={6}
+            >
+              <ForwardRef(render)
+                className="input-row"
+              >
+                <ForwardRef
+                  as="form"
+                  className="input-form"
+                  inline={false}
+                >
+                  <ForwardRef>
+                    <ForwardRef
+                      as="div"
+                      sm={8}
+                    >
+                      <ForwardRef
+                        as="input"
+                        className="place-input"
+                        onChange={[Function]}
+                        placeholder="Add Place"
+                        type="text"
+                        value=""
+                      />
+                    </ForwardRef>
+                    <ForwardRef
+                      as="div"
+                      sm={4}
+                    >
+                      <ForwardRef
+                        active={false}
+                        className="add_btn"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                        variant="primary"
+                      >
+                        Add Map
+                      </ForwardRef>
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef>
+              </ForwardRef(render)>
+              <ForwardRef(render)
+                className="list-row"
+              >
+                <ul
+                  className="list"
+                >
+                  <PlaceListItem
+                    location={
+                      Object {
+                        "Address": "a",
+                        "Lat": "a",
+                        "Lng": "a",
+                        "Name": "a",
+                        "_id": "a",
+                      }
+                    }
+                    onDelete={[Function]}
+                    onEdit={[Function]}
+                  />
+                </ul>
+              </ForwardRef(render)>
+            </ForwardRef>
+          </ForwardRef(render)>
+        </ForwardRef>,
+        "classNamePrefix": "_loading_overlay_",
+        "fadeSpeed": 500,
+        "spinner": true,
+        "styles": Object {},
+        "text": "Loading...",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": Array [
+            <ModalComponent
+              handleClose={[Function]}
+              message=""
+              show={false}
+            />,
+            <InputModalComponent
+              handleClose={[Function]}
+              handleConfirm={[Function]}
+              title="Edit Place"
+            />,
+            <ForwardRef(render)>
+              <ForwardRef
+                as="div"
+                className="map-container"
+                sm={6}
+              >
+                <withScriptjs(withGoogleMap(MapComponent))
+                  containerElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                  googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+                  loadingElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                  locations={
+                    Array [
+                      Object {
+                        "Address": "a",
+                        "Lat": "a",
+                        "Lng": "a",
+                        "Name": "a",
+                        "_id": "a",
+                      },
+                    ]
+                  }
+                  mapElement={
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                as="div"
+                className="list-container"
+                sm={6}
+              >
+                <ForwardRef(render)
+                  className="input-row"
+                >
+                  <ForwardRef
+                    as="form"
+                    className="input-form"
+                    inline={false}
+                  >
+                    <ForwardRef>
+                      <ForwardRef
+                        as="div"
+                        sm={8}
+                      >
+                        <ForwardRef
+                          as="input"
+                          className="place-input"
+                          onChange={[Function]}
+                          placeholder="Add Place"
+                          type="text"
+                          value=""
+                        />
+                      </ForwardRef>
+                      <ForwardRef
+                        as="div"
+                        sm={4}
+                      >
+                        <ForwardRef
+                          active={false}
+                          className="add_btn"
+                          disabled={false}
+                          onClick={[Function]}
+                          type="button"
+                          variant="primary"
+                        >
+                          Add Map
+                        </ForwardRef>
+                      </ForwardRef>
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef(render)>
+                <ForwardRef(render)
+                  className="list-row"
+                >
+                  <ul
+                    className="list"
+                  >
+                    <PlaceListItem
+                      location={
+                        Object {
+                          "Address": "a",
+                          "Lat": "a",
+                          "Lng": "a",
+                          "Name": "a",
+                          "_id": "a",
+                        }
+                      }
+                      onDelete={[Function]}
+                      onEdit={[Function]}
+                    />
+                  </ul>
+                </ForwardRef(render)>
+              </ForwardRef>
+            </ForwardRef(render)>,
+          ],
+          "fluid": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleClose": [Function],
+              "message": "",
+              "show": false,
+              "title": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleClose": [Function],
+              "handleConfirm": [Function],
+              "show": undefined,
+              "title": "Edit Place",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef
+                  as="div"
+                  className="map-container"
+                  sm={6}
+                >
+                  <withScriptjs(withGoogleMap(MapComponent))
+                    containerElement={
+                      <div
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      />
+                    }
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+                    loadingElement={
+                      <div
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      />
+                    }
+                    locations={
+                      Array [
+                        Object {
+                          "Address": "a",
+                          "Lat": "a",
+                          "Lng": "a",
+                          "Name": "a",
+                          "_id": "a",
+                        },
+                      ]
+                    }
+                    mapElement={
+                      <div
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      />
+                    }
+                  />
+                </ForwardRef>,
+                <ForwardRef
+                  as="div"
+                  className="list-container"
+                  sm={6}
+                >
+                  <ForwardRef(render)
+                    className="input-row"
+                  >
+                    <ForwardRef
+                      as="form"
+                      className="input-form"
+                      inline={false}
+                    >
+                      <ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={8}
+                        >
+                          <ForwardRef
+                            as="input"
+                            className="place-input"
+                            onChange={[Function]}
+                            placeholder="Add Place"
+                            type="text"
+                            value=""
+                          />
+                        </ForwardRef>
+                        <ForwardRef
+                          as="div"
+                          sm={4}
+                        >
+                          <ForwardRef
+                            active={false}
+                            className="add_btn"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="primary"
+                          >
+                            Add Map
+                          </ForwardRef>
+                        </ForwardRef>
+                      </ForwardRef>
+                    </ForwardRef>
+                  </ForwardRef(render)>
+                  <ForwardRef(render)
+                    className="list-row"
+                  >
+                    <ul
+                      className="list"
+                    >
+                      <PlaceListItem
+                        location={
+                          Object {
+                            "Address": "a",
+                            "Lat": "a",
+                            "Lng": "a",
+                            "Name": "a",
+                            "_id": "a",
+                          }
+                        }
+                        onDelete={[Function]}
+                        onEdit={[Function]}
+                      />
+                    </ul>
+                  </ForwardRef(render)>
+                </ForwardRef>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "div",
+                  "children": <withScriptjs(withGoogleMap(MapComponent))
+                    containerElement={
+                      <div
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      />
+                    }
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ"
+                    loadingElement={
+                      <div
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      />
+                    }
+                    locations={
+                      Array [
+                        Object {
+                          "Address": "a",
+                          "Lat": "a",
+                          "Lng": "a",
+                          "Name": "a",
+                          "_id": "a",
+                        },
+                      ]
+                    }
+                    mapElement={
+                      <div
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      />
+                    }
+                  />,
+                  "className": "map-container",
+                  "sm": 6,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "containerElement": <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />,
+                    "googleMapURL": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDGo14irgV7Dl99VFXzOUDcJbPzf_qVUEQ",
+                    "loadingElement": <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />,
+                    "locations": Array [
+                      Object {
+                        "Address": "a",
+                        "Lat": "a",
+                        "Lng": "a",
+                        "Name": "a",
+                        "_id": "a",
+                      },
+                    ],
+                    "mapElement": <div
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "as": "div",
+                  },
+                  "displayName": "Col",
+                  "render": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "div",
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="input-row"
+                    >
+                      <ForwardRef
+                        as="form"
+                        className="input-form"
+                        inline={false}
+                      >
+                        <ForwardRef>
+                          <ForwardRef
+                            as="div"
+                            sm={8}
+                          >
+                            <ForwardRef
+                              as="input"
+                              className="place-input"
+                              onChange={[Function]}
+                              placeholder="Add Place"
+                              type="text"
+                              value=""
+                            />
+                          </ForwardRef>
+                          <ForwardRef
+                            as="div"
+                            sm={4}
+                          >
+                            <ForwardRef
+                              active={false}
+                              className="add_btn"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="primary"
+                            >
+                              Add Map
+                            </ForwardRef>
+                          </ForwardRef>
+                        </ForwardRef>
+                      </ForwardRef>
+                    </ForwardRef(render)>,
+                    <ForwardRef(render)
+                      className="list-row"
+                    >
+                      <ul
+                        className="list"
+                      >
+                        <PlaceListItem
+                          location={
+                            Object {
+                              "Address": "a",
+                              "Lat": "a",
+                              "Lng": "a",
+                              "Name": "a",
+                              "_id": "a",
+                            }
+                          }
+                          onDelete={[Function]}
+                          onEdit={[Function]}
+                        />
+                      </ul>
+                    </ForwardRef(render)>,
+                  ],
+                  "className": "list-container",
+                  "sm": 6,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <ForwardRef
+                        as="form"
+                        className="input-form"
+                        inline={false}
+                      >
+                        <ForwardRef>
+                          <ForwardRef
+                            as="div"
+                            sm={8}
+                          >
+                            <ForwardRef
+                              as="input"
+                              className="place-input"
+                              onChange={[Function]}
+                              placeholder="Add Place"
+                              type="text"
+                              value=""
+                            />
+                          </ForwardRef>
+                          <ForwardRef
+                            as="div"
+                            sm={4}
+                          >
+                            <ForwardRef
+                              active={false}
+                              className="add_btn"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="primary"
+                            >
+                              Add Map
+                            </ForwardRef>
+                          </ForwardRef>
+                        </ForwardRef>
+                      </ForwardRef>,
+                      "className": "input-row",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": "form",
+                        "children": <ForwardRef>
+                          <ForwardRef
+                            as="div"
+                            sm={8}
+                          >
+                            <ForwardRef
+                              as="input"
+                              className="place-input"
+                              onChange={[Function]}
+                              placeholder="Add Place"
+                              type="text"
+                              value=""
+                            />
+                          </ForwardRef>
+                          <ForwardRef
+                            as="div"
+                            sm={4}
+                          >
+                            <ForwardRef
+                              active={false}
+                              className="add_btn"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="primary"
+                            >
+                              Add Map
+                            </ForwardRef>
+                          </ForwardRef>
+                        </ForwardRef>,
+                        "className": "input-form",
+                        "inline": false,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": Array [
+                            <ForwardRef
+                              as="div"
+                              sm={8}
+                            >
+                              <ForwardRef
+                                as="input"
+                                className="place-input"
+                                onChange={[Function]}
+                                placeholder="Add Place"
+                                type="text"
+                                value=""
+                              />
+                            </ForwardRef>,
+                            <ForwardRef
+                              as="div"
+                              sm={4}
+                            >
+                              <ForwardRef
+                                active={false}
+                                className="add_btn"
+                                disabled={false}
+                                onClick={[Function]}
+                                type="button"
+                                variant="primary"
+                              >
+                                Add Map
+                              </ForwardRef>
+                            </ForwardRef>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "as": "div",
+                              "children": <ForwardRef
+                                as="input"
+                                className="place-input"
+                                onChange={[Function]}
+                                placeholder="Add Place"
+                                type="text"
+                                value=""
+                              />,
+                              "sm": 8,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "as": "input",
+                                "className": "place-input",
+                                "onChange": [Function],
+                                "placeholder": "Add Place",
+                                "type": "text",
+                                "value": "",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "Feedback": Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "defaultProps": Object {
+                                    "as": "div",
+                                    "type": "valid",
+                                  },
+                                  "displayName": "Feedback",
+                                  "propTypes": Object {
+                                    "as": [Function],
+                                    "type": [Function],
+                                  },
+                                  "render": [Function],
+                                },
+                                "defaultProps": Object {
+                                  "as": "input",
+                                },
+                                "displayName": "FormControl",
+                                "render": [Function],
+                              },
+                            },
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "defaultProps": Object {
+                                "as": "div",
+                              },
+                              "displayName": "Col",
+                              "render": [Function],
+                            },
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "as": "div",
+                              "children": <ForwardRef
+                                active={false}
+                                className="add_btn"
+                                disabled={false}
+                                onClick={[Function]}
+                                type="button"
+                                variant="primary"
+                              >
+                                Add Map
+                              </ForwardRef>,
+                              "sm": 4,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "active": false,
+                                "children": "Add Map",
+                                "className": "add_btn",
+                                "disabled": false,
+                                "onClick": [Function],
+                                "type": "button",
+                                "variant": "primary",
+                              },
+                              "ref": null,
+                              "rendered": "Add Map",
+                              "type": Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "defaultProps": Object {
+                                  "active": false,
+                                  "disabled": false,
+                                  "type": "button",
+                                  "variant": "primary",
+                                },
+                                "displayName": "Button",
+                                "render": [Function],
+                              },
+                            },
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "defaultProps": Object {
+                                "as": "div",
+                              },
+                              "displayName": "Col",
+                              "render": [Function],
+                            },
+                          },
+                        ],
+                        "type": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": undefined,
+                          "displayName": "FormRow",
+                          "render": [Function],
+                        },
+                      },
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Check": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "Input": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "defaultProps": Object {
+                              "type": "checkbox",
+                            },
+                            "displayName": "FormCheckInput",
+                            "render": [Function],
+                          },
+                          "Label": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "defaultProps": Object {
+                              "type": "checkbox",
+                            },
+                            "displayName": "FormCheckLabel",
+                            "render": [Function],
+                          },
+                          "defaultProps": Object {
+                            "disabled": false,
+                            "inline": false,
+                            "isInvalid": false,
+                            "isValid": false,
+                            "title": "",
+                            "type": "checkbox",
+                          },
+                          "displayName": "FormCheck",
+                          "render": [Function],
+                        },
+                        "Control": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "Feedback": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "defaultProps": Object {
+                              "as": "div",
+                              "type": "valid",
+                            },
+                            "displayName": "Feedback",
+                            "propTypes": Object {
+                              "as": [Function],
+                              "type": [Function],
+                            },
+                            "render": [Function],
+                          },
+                          "defaultProps": Object {
+                            "as": "input",
+                          },
+                          "displayName": "FormControl",
+                          "render": [Function],
+                        },
+                        "Group": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "as": "div",
+                          },
+                          "displayName": "FormGroup",
+                          "render": [Function],
+                        },
+                        "Label": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "column": false,
+                            "srOnly": false,
+                          },
+                          "displayName": "FormLabel",
+                          "render": [Function],
+                        },
+                        "Row": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": undefined,
+                          "displayName": "FormRow",
+                          "render": [Function],
+                        },
+                        "Text": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "as": "small",
+                          },
+                          "displayName": "FormText",
+                          "render": [Function],
+                        },
+                        "defaultProps": Object {
+                          "as": "form",
+                          "inline": false,
+                        },
+                        "displayName": "Form",
+                        "render": [Function],
+                      },
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": undefined,
+                      "displayName": "Bootstrap(Row)",
+                      "propTypes": undefined,
+                      "render": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <ul
+                        className="list"
+                      >
+                        <PlaceListItem
+                          location={
+                            Object {
+                              "Address": "a",
+                              "Lat": "a",
+                              "Lng": "a",
+                              "Name": "a",
+                              "_id": "a",
+                            }
+                          }
+                          onDelete={[Function]}
+                          onEdit={[Function]}
+                        />
+                      </ul>,
+                      "className": "list-row",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <PlaceListItem
+                            location={
+                              Object {
+                                "Address": "a",
+                                "Lat": "a",
+                                "Lng": "a",
+                                "Name": "a",
+                                "_id": "a",
+                              }
+                            }
+                            onDelete={[Function]}
+                            onEdit={[Function]}
+                          />,
+                        ],
+                        "className": "list",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "a",
+                          "nodeType": "function",
+                          "props": Object {
+                            "location": Object {
+                              "Address": "a",
+                              "Lat": "a",
+                              "Lng": "a",
+                              "Name": "a",
+                              "_id": "a",
+                            },
+                            "onDelete": [Function],
+                            "onEdit": [Function],
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": undefined,
+                      "displayName": "Bootstrap(Row)",
+                      "propTypes": undefined,
+                      "render": [Function],
+                    },
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "as": "div",
+                  },
+                  "displayName": "Col",
+                  "render": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "Bootstrap(Row)",
+              "propTypes": undefined,
+              "render": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+            "fluid": false,
+          },
+          "displayName": "Container",
+          "render": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

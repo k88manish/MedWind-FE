@@ -1,0 +1,623 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceListItem testing should render properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PlaceListItem
+    location={
+      Object {
+        "Address": "Test Address",
+        "Lat": "1.111111",
+        "Lng": "12312132",
+        "Name": "Test Name",
+      }
+    }
+    onDelete={[MockFunction]}
+    onEdit={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="title"
+        >
+          Test Name
+        </div>,
+        <div
+          style={
+            Object {
+              "height": "3em",
+              "overflow": "Hidden",
+              "textOverflow": "ellipsis",
+            }
+          }
+        >
+          <strong>
+            Address
+          </strong>
+          : 
+          Test Address
+        </div>,
+        <div>
+          <strong>
+            Latitude
+          </strong>
+          : 
+          1.111111
+        </div>,
+        <div>
+          <strong>
+            Longitude
+          </strong>
+          : 
+          12312132
+        </div>,
+        <ForwardRef(render)
+          className="btn-bar"
+        >
+          <ForwardRef
+            active={false}
+            className="edit-btn"
+            disabled={false}
+            onClick={[Function]}
+            size="sm"
+            type="button"
+            variant="outline-dark"
+          >
+            Edit
+          </ForwardRef>
+           or 
+          <ForwardRef
+            active={false}
+            className="delete-btn"
+            disabled={false}
+            onClick={[Function]}
+            size="sm"
+            type="button"
+            variant="outline-dark"
+          >
+            Delete
+          </ForwardRef>
+        </ForwardRef(render)>,
+      ],
+      "className": "list-item",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Test Name",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Test Name",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <strong>
+              Address
+            </strong>,
+            ": ",
+            "Test Address",
+          ],
+          "style": Object {
+            "height": "3em",
+            "overflow": "Hidden",
+            "textOverflow": "ellipsis",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": "strong",
+          },
+          ": ",
+          "Test Address",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <strong>
+              Latitude
+            </strong>,
+            ": ",
+            "1.111111",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Latitude",
+            },
+            "ref": null,
+            "rendered": "Latitude",
+            "type": "strong",
+          },
+          ": ",
+          "1.111111",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <strong>
+              Longitude
+            </strong>,
+            ": ",
+            "12312132",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Longitude",
+            },
+            "ref": null,
+            "rendered": "Longitude",
+            "type": "strong",
+          },
+          ": ",
+          "12312132",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef
+              active={false}
+              className="edit-btn"
+              disabled={false}
+              onClick={[Function]}
+              size="sm"
+              type="button"
+              variant="outline-dark"
+            >
+              Edit
+            </ForwardRef>,
+            " or ",
+            <ForwardRef
+              active={false}
+              className="delete-btn"
+              disabled={false}
+              onClick={[Function]}
+              size="sm"
+              type="button"
+              variant="outline-dark"
+            >
+              Delete
+            </ForwardRef>,
+          ],
+          "className": "btn-bar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "active": false,
+              "children": "Edit",
+              "className": "edit-btn",
+              "disabled": false,
+              "onClick": [Function],
+              "size": "sm",
+              "type": "button",
+              "variant": "outline-dark",
+            },
+            "ref": null,
+            "rendered": "Edit",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "active": false,
+                "disabled": false,
+                "type": "button",
+                "variant": "primary",
+              },
+              "displayName": "Button",
+              "render": [Function],
+            },
+          },
+          " or ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "active": false,
+              "children": "Delete",
+              "className": "delete-btn",
+              "disabled": false,
+              "onClick": [Function],
+              "size": "sm",
+              "type": "button",
+              "variant": "outline-dark",
+            },
+            "ref": null,
+            "rendered": "Delete",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "active": false,
+                "disabled": false,
+                "type": "button",
+                "variant": "primary",
+              },
+              "displayName": "Button",
+              "render": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "Bootstrap(Row)",
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+    ],
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="title"
+          >
+            Test Name
+          </div>,
+          <div
+            style={
+              Object {
+                "height": "3em",
+                "overflow": "Hidden",
+                "textOverflow": "ellipsis",
+              }
+            }
+          >
+            <strong>
+              Address
+            </strong>
+            : 
+            Test Address
+          </div>,
+          <div>
+            <strong>
+              Latitude
+            </strong>
+            : 
+            1.111111
+          </div>,
+          <div>
+            <strong>
+              Longitude
+            </strong>
+            : 
+            12312132
+          </div>,
+          <ForwardRef(render)
+            className="btn-bar"
+          >
+            <ForwardRef
+              active={false}
+              className="edit-btn"
+              disabled={false}
+              onClick={[Function]}
+              size="sm"
+              type="button"
+              variant="outline-dark"
+            >
+              Edit
+            </ForwardRef>
+             or 
+            <ForwardRef
+              active={false}
+              className="delete-btn"
+              disabled={false}
+              onClick={[Function]}
+              size="sm"
+              type="button"
+              variant="outline-dark"
+            >
+              Delete
+            </ForwardRef>
+          </ForwardRef(render)>,
+        ],
+        "className": "list-item",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Test Name",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Test Name",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <strong>
+                Address
+              </strong>,
+              ": ",
+              "Test Address",
+            ],
+            "style": Object {
+              "height": "3em",
+              "overflow": "Hidden",
+              "textOverflow": "ellipsis",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": "strong",
+            },
+            ": ",
+            "Test Address",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <strong>
+                Latitude
+              </strong>,
+              ": ",
+              "1.111111",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Latitude",
+              },
+              "ref": null,
+              "rendered": "Latitude",
+              "type": "strong",
+            },
+            ": ",
+            "1.111111",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <strong>
+                Longitude
+              </strong>,
+              ": ",
+              "12312132",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Longitude",
+              },
+              "ref": null,
+              "rendered": "Longitude",
+              "type": "strong",
+            },
+            ": ",
+            "12312132",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef
+                active={false}
+                className="edit-btn"
+                disabled={false}
+                onClick={[Function]}
+                size="sm"
+                type="button"
+                variant="outline-dark"
+              >
+                Edit
+              </ForwardRef>,
+              " or ",
+              <ForwardRef
+                active={false}
+                className="delete-btn"
+                disabled={false}
+                onClick={[Function]}
+                size="sm"
+                type="button"
+                variant="outline-dark"
+              >
+                Delete
+              </ForwardRef>,
+            ],
+            "className": "btn-bar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "active": false,
+                "children": "Edit",
+                "className": "edit-btn",
+                "disabled": false,
+                "onClick": [Function],
+                "size": "sm",
+                "type": "button",
+                "variant": "outline-dark",
+              },
+              "ref": null,
+              "rendered": "Edit",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "active": false,
+                  "disabled": false,
+                  "type": "button",
+                  "variant": "primary",
+                },
+                "displayName": "Button",
+                "render": [Function],
+              },
+            },
+            " or ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "active": false,
+                "children": "Delete",
+                "className": "delete-btn",
+                "disabled": false,
+                "onClick": [Function],
+                "size": "sm",
+                "type": "button",
+                "variant": "outline-dark",
+              },
+              "ref": null,
+              "rendered": "Delete",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "active": false,
+                  "disabled": false,
+                  "type": "button",
+                  "variant": "primary",
+                },
+                "displayName": "Button",
+                "render": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "Bootstrap(Row)",
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+      ],
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
